@@ -3,7 +3,7 @@ def reverse(text: str) -> str:
     pass
 
 def first_to_upper(text: str) -> str:
-    return ' '.join(word[0].capitalize if word[0].islower() else word for word in text.split())
+    return ' '.join([word[0].capitalize() if word[0].islower() else word for word in text.split()])
     pass
 
 def count_vowels(text: str) -> int:
