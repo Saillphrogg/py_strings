@@ -1,5 +1,3 @@
-# pylint: disable=C0114
-
 def reverse(text: str) -> str:
     """
     reverse the text and return it
